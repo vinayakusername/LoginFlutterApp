@@ -13,7 +13,6 @@ String data = await rootBundle.loadString("JsonFiles/userLoginInfo.json");
 String jsonString= data.toString();
 //This statement is used to decode the json data into map variable.
 Map userMap = jsonDecode(jsonString);
-//List userList = jsonDecode(jsonString);
 var user = UserLoginInfo.fromJson(userMap);
 
 //print('Howdy, ${user.username}!');
