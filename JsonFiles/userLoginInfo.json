@@ -1,0 +1,32 @@
+{
+    "User1":{
+               "username":"Vishwas",
+               "email":"vishwas@gmail.com",
+               "password":"vishwas123"
+            },
+    "User2":{
+                "username":"Ranjit",
+                "email":"ranjit@gmail.com",
+                "password":"ranjit123"
+             },
+
+    "User3":{
+                "username":"Manoj",
+                "email":"manoj@gmail.com",
+                "password":"manoj123"
+             },
+    "User4":{
+                "username":"Bahart",
+                "email":"bharat@gmail.com",
+                "password":"bharat123"
+             },
+
+    "User5":{
+                "username":"Pramod",
+                "email":"pramod@gmail.com",
+                "password":"pramod123"
+             }
+
+
+
+}
