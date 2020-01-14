@@ -1,7 +1,8 @@
 import 'dart:async' show Future;
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:login_project_app/Model/UserLoginInfo.dart';
+import 'package:login_project_app/Model/UserLoginInfoModel.dart';
+
 
 
 class Serialition{
