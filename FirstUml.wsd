@@ -1,0 +1,25 @@
+@startuml
+
+class LoginValidation{
+   String userValidation(String inputEmail)
+   String userEmail
+}
+note left of LoginValidation: It is BLOC Class. And \n it will check the validation
+
+class UserLoginInfo{
+    String email
+    UserLoginInfo()
+    UserLoginInfo.fromJson()
+}
+note right of UserLoginInfo: It is Model Class
+
+  class Serialition{
+      loadShowData()
+      String data
+      String jsonString
+      Map<String,dynamic>userMap
+  }
+ note left of Serialition: It is Utility Class
+
+
+@enduml
